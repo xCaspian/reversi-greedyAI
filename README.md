@@ -4,7 +4,7 @@ Reversi boardgame, written in Java.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Program to play against another player locally, or play against a greedy AI which picks the best move for that turn without regarding future moves.
 
 ## How to Run?
 
