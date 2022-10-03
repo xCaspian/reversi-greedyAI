@@ -32,7 +32,7 @@ Starting board:
 
 ## How to Run?
 
-**Greedy AI:**
+**Command Line:**
 ```
 git clone https://github.com/xCaspian/reversi-greedyAI.git
 cd reversi-greedyAI
