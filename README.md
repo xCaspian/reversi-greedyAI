@@ -1,6 +1,6 @@
 # reversi-othello
 
-Reversi (Othello) boardgame, written in Java.
+Reversi/Othello boardgame, written in Java.
 
 ## Description
 
