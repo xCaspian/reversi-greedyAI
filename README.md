@@ -36,7 +36,6 @@ Starting board:
 ```
 git clone https://github.com/xCaspian/reversi-othello.git
 cd reversi-othello
-cd greedyAI
 cd src
 javac Main.java
 java Main
