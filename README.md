@@ -8,11 +8,11 @@ Program to play against another player locally, or play against a greedy AI whic
 
 Starting board:
 
-<img
+<img 
   src="assets/reversi-start.png"
   alt="starting board of reversi game"
   title="Reversi Board"
-  style="display: inline-block; margin: 0 auto; max-width: 10px; max-height: 10px">
+  width="100">
   
   potential first move:
   
@@ -20,7 +20,7 @@ Starting board:
   src="assets/reversi-first.png"
   alt="1st move of reversi game"
   title="Reversi Board"
-  style="display: inline-block; margin: 0 auto; max-width: 10px; max-height: 10px">
+  width="100">
   
   potential second move:
   
@@ -28,7 +28,7 @@ Starting board:
   src="assets/reversi-second.png"
   alt="2nd move of reversi game"
   title="Reversi Board"
-  style="display: inline-block; margin: 0 auto; max-width: 10px; max-height: 10px">
+  width="100">
 
 ## How to Run?
 
