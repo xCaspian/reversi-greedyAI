@@ -1,17 +1,7 @@
-
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Iterator;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 
 public class Board implements ActionListener
 {
@@ -22,7 +12,8 @@ public class Board implements ActionListener
 	private String myLabel;
 	private JButton greedyAI;
 	private boolean player;
-	
+	private static JWindow window = new JWindow();
+
 	public Board(Game m, boolean player)
 	{
 		game = m;
@@ -66,8 +57,15 @@ public class Board implements ActionListener
 		boardFrame.add(label, BorderLayout.NORTH);
 		boardFrame.add(panel, BorderLayout.CENTER);
 		boardFrame.add(greedyAI, BorderLayout.SOUTH);
+
+		// find dimensions of screen and frame to center boards
+		Dimension screenSize = new Dimension(Toolkit.getDefaultToolkit().getScreenSize());
+		Dimension windowSize = new Dimension(boardFrame.getPreferredSize());
+		int horizontalOffset = screenSize.width / 2 - windowSize.width / 2 + (player ? -200 : 200);
+		int verticalOffset = screenSize.height / 2 - windowSize.height / 2;
 		
 		boardFrame.pack();  // Resize frame to fit content
+		boardFrame.setLocation(horizontalOffset, verticalOffset);
 		boardFrame.setVisible(true);  // Display it - until you close out
 	}
 	
@@ -153,13 +151,9 @@ public class Board implements ActionListener
 					buttonArray[y][x].setEnabled(false);
 					greedyAI.setEnabled(false);
 				}
-				
 			}
 		}
 		label.setText(getLabel());
 		boardFrame.repaint();
-				
-	}	
-	
-	
+	}
 }
