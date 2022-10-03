@@ -1,6 +1,6 @@
 # reversi-othello
 
-Simple overview of use/purpose
+Reversi boardgame, written in Java.
 
 ## Description
 
