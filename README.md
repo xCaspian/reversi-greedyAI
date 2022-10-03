@@ -11,6 +11,7 @@ Program to play against another player locally, or play against a greedy AI whic
 **Greedy AI:**
 ```
 git clone https://github.com/xCaspian/reversi-othello.git
+cd reversi-othello
 cd greedyAI
 cd src
 javac Main.java
