@@ -12,7 +12,7 @@ Starting board:
   src="assets/reversi-start.png"
   alt="starting board of reversi game"
   title="Reversi Board"
-  width="100">
+  width="250">
   
   potential first move:
   
@@ -20,7 +20,7 @@ Starting board:
   src="assets/reversi-first.png"
   alt="1st move of reversi game"
   title="Reversi Board"
-  width="100">
+  width="250">
   
   potential second move:
   
@@ -28,7 +28,7 @@ Starting board:
   src="assets/reversi-second.png"
   alt="2nd move of reversi game"
   title="Reversi Board"
-  width="100">
+  width="250">
 
 ## How to Run?
 
