@@ -1,7 +1,18 @@
 # reversi-othello
 
-Simple overview of use/purpose
+Reversi (Othello) boardgame, written in Java.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Program to play against another player locally, or play against a greedy AI which picks the best move for that turn without regarding future moves.
+
+## How to Run?
+
+**Greedy AI:**
+```
+git clone https://github.com/xCaspian/reversi-othello.git
+cd greedyAI
+cd src
+javac Main.java
+java Main
+```
